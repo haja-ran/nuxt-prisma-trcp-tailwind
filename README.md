@@ -8,6 +8,7 @@ This is a [sidebase merino](https://sidebase.io/) app created by running `npm cr
 - tRPC 10
 - Tailwind CSS
 - GitHub Actions based CI
+- [Nuxt UI](https://ui.nuxt.com)
 
 ## How to get going?
 
@@ -30,7 +31,7 @@ Some tasks you should probably do in the beginning are:
 Make sure to install the dependencies:
 
 ```bash
-npm install
+yarn
 ```
 
 ### Development Server
@@ -38,7 +39,7 @@ npm install
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ### Production
@@ -46,11 +47,11 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+yarn build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn preview
 ```
